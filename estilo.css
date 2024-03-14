@@ -6,7 +6,7 @@ body {
 
 .container {
     width: 95%;
-    margin: -30px auto;
+    margin: -30px auto 215px;
     padding: 20px;
     background-color: rgb(255, 255, 255);
 }
@@ -35,4 +35,29 @@ h2 {
 p {
     font-size: 16px;
     color: #414141;
+    margin-bottom: -10px;
+}
+
+hr {
+    margin: 30px auto;
+}
+
+a {
+    color: rgb(186, 166, 202);
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: rgb(207, 207, 207);
+    color:rgb(15, 15, 15);
+    padding: 0px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
 }
