@@ -1,3 +1,5 @@
+* { box-sizing: border-box;}
+
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(228, 228, 228);
@@ -6,7 +8,7 @@ body {
 
 .container {
     width: 95%;
-    margin: -30px auto 215px;
+    margin: -30px auto -32px;
     padding: 20px;
     background-color: rgb(255, 255, 255);
 }
@@ -32,6 +34,11 @@ h2 {
     color: rgb(15, 15, 15);
 }
 
+h3 {
+    font-size: 20px;
+    color: rgb(15, 15, 15);
+}
+
 p {
     font-size: 16px;
     color: #414141;
@@ -40,6 +47,21 @@ p {
 
 hr {
     margin: 30px auto;
+}
+
+figure {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+figcaption {
+    margin-top: 5px;
+    font-size: 12px;
+    font-style: italic;
 }
 
 a {
@@ -56,8 +78,7 @@ footer {
     color:rgb(15, 15, 15);
     padding: 0px;
     text-align: center;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    bottom: -200px;
     left: 0;
+    height: 180px;
 }
